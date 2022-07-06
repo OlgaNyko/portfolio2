@@ -4,29 +4,6 @@
   --button-color: #c5d86d;
   --paragraph-color: #f7f7f2;
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 36px;
-    line-height: 1.5;
-  }
-  h2 {
-    font-size: 26px;
-    text-align: center;
-  }
-  h3 {
-    font-size: 14px;
-    text-align: center;
-  }
-  p {
-    text-align: center;
-  }
-  #yoga-btn,
-  #weather-btn,
-  #yogurt-btn {
-    display: block;
-    margin: 0 auto;
-  }
-}
 body {
   margin-top: 50px;
   line-height: 1.6;
@@ -137,4 +114,28 @@ a:hover {
 }
 #contact-btn {
   margin-right: 40px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 36px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 14px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  #yoga-btn,
+  #weather-btn,
+  #yogurt-btn {
+    display: block;
+    margin: 0 auto;
+  }
 }
