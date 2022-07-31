@@ -31,7 +31,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Olha Nykonenko</a>
+        <a class="navbar-brand" href="/index.html">Olha Nykonenko</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -46,18 +46,31 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a
+                class="nav-link"
+                aria-current="page"
+                title="homepage"
+                href="/index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
+              <a class="nav-link" title="about Olha" href="/about.html"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projects.html">My projects</a>
+              <a
+                class="nav-link active"
+                title="Olha's projects"
+                href="/projects.html"
+                >Projects</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact me</a>
+              <a class="nav-link" title="contact Olha" href="/contact.html"
+                >Contact me</a
+              >
             </li>
           </ul>
         </div>
@@ -103,12 +116,46 @@
           <p class="text-center">Built with HTML, CSS, React</p>
         </div>
       </div>
-    </div>
-    <div id="contact-me-section" class="mb-5">
-      <div>
-        <i class="fa-solid fa-envelope-open-text"></i> Contact me by e-mail:
-      </div>
-      <a href="mailto:olyanykonenko@gmail.com">olyanykonenko@gmail.com</a>
+
+      <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <button class="primary-button text-capitalize mt-3">
+              <a href="contact.html">Contact me</a>
+            </button>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:olyanykonenko@gmail.com" class="email-link"
+            >olyanykonenko@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://www.instagram.com/olganykonenko/?utm_medium=copy_link"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://github.com/OlgaNyko" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://m.facebook.com/profile.php?id=100005660355606&refsrc=deprecated&_rdr"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5 text-muted">
+          This project was coded by Olha Nykonenko and it's
+          <a href="https://github.com/OlgaNyko/portfolio2">open sourced</a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>

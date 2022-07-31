@@ -32,16 +32,27 @@ h3 {
   font-weight: 500;
   line-height: 1.2;
 }
+h4 {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+}
+
 a {
   text-decoration: none;
+  color: var(--text-color);
+}
+a:hover {
   color: var(--text-color);
 }
 i {
   font-size: 24px;
   opacity: 0.7;
 }
-a:hover {
-  color: var(--text-color);
+.main-section-backgruond {
+  background-color: var(--paragraph-color);
+  margin: 20px 60px;
+  padding: 30px 60px;
+  border-radius: 10px;
 }
 .first-section-homepage {
   display: flex;
@@ -96,7 +107,7 @@ a:hover {
   outline: none;
   padding: 20px 15px;
   text-align: center;
-  transition: color 100ms;
+  transition: color 150ms ease-in-out;
 }
 
 .primary-button:hover,
@@ -115,7 +126,7 @@ a:hover {
   outline: none;
   padding: 20px 15px;
   text-align: center;
-  transition: color 100ms;
+  transition: color 1500ms ease-in-out;
 }
 
 .secondary-button:hover,
@@ -127,6 +138,57 @@ a:hover {
   justify-content: center;
   flex-flow: row wrap;
 }
+.contact-background {
+  background-color: var(--paragraph-color);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  line-height: 2;
+}
+.contact-background a:hover {
+  color: var(--button-color);
+}
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--paragraph-color);
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+footer .contact-box button {
+  margin: 0;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  transition: all 150ms ease-in-out;
+}
+footer .email-link:hover {
+  color: var(--button-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--button-color);
+  background-color: var(--paragraph-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--paragraph-color);
+  background-color: var(--button-color);
+}
+footer p a:hover {
+  color: var(--button-color);
+}
+
 #contact-btn,
 #about-btn {
   margin-top: 40px;
@@ -159,6 +221,12 @@ a:hover {
     margin: 0 auto;
   }
   #contact-page {
+    font-size: 24px;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
+  h4 {
     font-size: 18px;
   }
 }
